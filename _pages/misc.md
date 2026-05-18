@@ -73,3 +73,11 @@ Beyond research, here are some things I enjoy. Feel free to reach out if any of 
     <p>My most-listened artists are <strong>JJ Lin (林俊杰)</strong>, <strong>TWICE</strong>, and <strong>Dua Lipa</strong>.</p>
   </div>
 </div>
+
+---
+
+## Visitor Map
+
+<div style="display: flex; justify-content: center; margin-top: 1rem;">
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ipmUbf6sDUWTvt-iOwE_77yjH9ZS7tKHNqhs7AwcO2s"></script>
+</div>
