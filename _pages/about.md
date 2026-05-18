@@ -1,34 +1,62 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Incoming Statistics PhD Student
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  location: Santa Barbara, CA, USA
+  affiliation: UC Santa Barbara
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: false
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my homepage! I am **Ziheng Wei (魏子恒)**, an incoming Statistics PhD student at UC Santa Barbara. My first name is pronounced <span style="font-family: Georgia, serif; font-style: italic; color: var(--global-text-color-light); font-size: 0.95em;">/ Zee-hung /</span>. Feel free to call me by my English name Everett. This site is where I share my research, background, and a few things beyond academia. Thanks for stopping by!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## About Me
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am an incoming Statistics PhD student at the University of California, Santa Barbara (UCSB), jointly mentored by [Annie Qu](https://qu.pstat.ucsb.edu/welcome) and [Xiaowu Dai](https://www.xiaowudai.org/). Previously, I got a Master's degree in Applied Statistics from the University of Michigan, Ann Arbor. I completed my undergraduate study at Wuhan University, majoring in Statistics. I grew up in Shenyang, a beautiful city in northeastern China, where I spent the first eighteen years of my life.
+
+I am broadly interested in **Reinforcement Learning** and **Large Language Models**.
+
+Feel free to reach out, whether it is about research, shared interests, or simply to say hello. You can find me at **z\_wei [at] ucsb [dot] edu** (institutional) or **zihengwei242 [at] gmail [dot] com** (permanent).
+
+## Education
+
+<div class="edu-list">
+
+<div class="edu-entry">
+  <div class="edu-year">2031 (expected)</div>
+  <div class="edu-body">
+    <div class="edu-degree">Ph.D. in Statistics</div>
+    <div class="edu-school">University of California, Santa Barbara</div>
+    <div class="edu-meta">Advisors: <a href="https://qu.pstat.ucsb.edu/welcome">Annie Qu</a> and <a href="https://www.xiaowudai.org/">Xiaowu Dai</a></div>
+  </div>
+</div>
+
+<div class="edu-entry">
+  <div class="edu-year">2026</div>
+  <div class="edu-body">
+    <div class="edu-degree">M.S. in Applied Statistics</div>
+    <div class="edu-school">University of Michigan, Ann Arbor</div>
+  </div>
+</div>
+
+<div class="edu-entry">
+  <div class="edu-year">2024</div>
+  <div class="edu-body">
+    <div class="edu-degree">B.S. in Statistics</div>
+    <div class="edu-school">Wuhan University</div>
+  </div>
+</div>
+
+</div>

@@ -245,6 +245,226 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// About page — academic sidebar layout
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+// Left sidebar / profile card
+.profile-card {
+  flex: 0 0 220px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: sticky;
+  top: 80px;
+}
+
+// Elliptical avatar: 3:4 ratio, border, object-fit cover
+.profile-img-ellipse {
+  display: block;
+  width: 200px;
+  height: 267px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--global-divider-color);
+  margin: 0 auto 1.1rem auto;
+}
+
+// figure wrapper that include figure.liquid generates
+.profile-card figure {
+  margin: 0;
+
+  img {
+    display: block;
+    width: 200px;
+    height: 267px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--global-divider-color);
+    margin: 0 auto 1.1rem auto;
+  }
+
+  figcaption { display: none; }
+}
+
+.profile-name {
+  font-size: 1.45rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem 0;
+  line-height: 1.25;
+  color: var(--global-text-color);
+}
+
+.profile-subtitle {
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+  margin: 0 0 1.1rem 0;
+  line-height: 1.4;
+}
+
+// Vertical contact list
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.3rem 0;
+    font-size: 0.82rem;
+    color: var(--global-text-color);
+    line-height: 1.4;
+
+    i {
+      flex-shrink: 0;
+      width: 1.1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--global-text-color-light);
+    }
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+      word-break: break-word;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+
+    span {
+      word-break: break-word;
+    }
+  }
+
+  // CV row — slightly more prominent
+  li.cv-item {
+    margin-top: 0.5rem;
+    padding-top: 0.6rem;
+    border-top: 1px solid var(--global-divider-color);
+
+    i { color: var(--global-theme-color); }
+
+    a {
+      color: var(--global-theme-color);
+      font-weight: 600;
+
+      &:hover { text-decoration: underline; }
+    }
+  }
+}
+
+// ClustrMaps widget
+.clustrmaps-widget {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+// Right content area
+.about-content {
+  flex: 1 1 0;
+  min-width: 0;
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 1.8rem;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.01em;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Mobile: stack vertically
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-card {
+    position: static;
+    width: 100%;
+    flex: none;
+  }
+
+  .about-content {
+    width: 100%;
+  }
+}
+
+// Education list
+
+.edu-list {
+  margin-top: 0.8rem;
+}
+
+.edu-entry {
+  display: flex;
+  gap: 1.4rem;
+  margin-bottom: 1.3rem;
+  align-items: flex-start;
+}
+
+.edu-year {
+  flex: 0 0 120px;
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+  padding-top: 0.15rem;
+  text-align: right;
+}
+
+.edu-body {
+  flex: 1;
+  border-left: 2px solid var(--global-divider-color);
+  padding-left: 1.1rem;
+}
+
+.edu-degree {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+}
+
+.edu-school {
+  font-size: 0.875rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.1rem;
+}
+
+.edu-meta {
+  font-size: 0.82rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.3rem;
+
+  a {
+    color: var(--global-text-color-light);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+    &:hover { color: var(--global-theme-color); }
+  }
+}
+
 // Distill
 
 .distill {

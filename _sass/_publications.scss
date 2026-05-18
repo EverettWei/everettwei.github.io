@@ -68,11 +68,19 @@
       }
 
       .title {
-        font-weight: bolder;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 1.4;
+        margin-bottom: 0.2rem;
       }
 
       .author {
+        font-size: 0.9rem;
+        color: var(--global-text-color-light);
+        margin-bottom: 0.15rem;
+
         a {
+          color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-theme-color);
 
           &:hover {
@@ -82,8 +90,9 @@
         }
 
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 700;
+          color: var(--global-text-color);
         }
 
         > span.more-authors {
