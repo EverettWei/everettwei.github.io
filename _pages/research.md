@@ -13,7 +13,7 @@ My research broadly lies at the intersection of **Reinforcement Learning** and *
 More specifically, I have recently been thinking about:
 
 - Robust sequential decision-making methods that remain reliable under non-ideal data conditions, e.g., unmeasured confounding;
-- Using statistical techniques to improve the behavior of LLMs;
+- Improving LLM behavior through statistical methodology and mechanism design;
 - Modeling heterogeneity to design adaptive RL algorithms.
 
 
