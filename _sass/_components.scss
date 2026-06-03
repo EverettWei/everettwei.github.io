@@ -291,7 +291,9 @@ ul.task-list input[type="checkbox"] {
     margin: 0 auto 1.1rem auto;
   }
 
-  figcaption { display: none; }
+  figcaption {
+    display: none;
+  }
 }
 
 .profile-name {
@@ -355,13 +357,17 @@ ul.task-list input[type="checkbox"] {
     padding-top: 0.6rem;
     border-top: 1px solid var(--global-divider-color);
 
-    i { color: var(--global-theme-color); }
+    i {
+      color: var(--global-theme-color);
+    }
 
     a {
       color: var(--global-theme-color);
       font-weight: 600;
 
-      &:hover { text-decoration: underline; }
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
@@ -461,7 +467,9 @@ ul.task-list input[type="checkbox"] {
     text-decoration: underline;
     text-underline-offset: 2px;
 
-    &:hover { color: var(--global-theme-color); }
+    &:hover {
+      color: var(--global-theme-color);
+    }
   }
 }
 

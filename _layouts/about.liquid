@@ -4,86 +4,82 @@ layout: default
 <div class="post">
   <article>
     <div class="about-container">
-
       {% if page.profile %}
-      <div class="profile-card">
-
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) 180px, 40vw{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path
-            class="profile-img-ellipse" sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-
-        <h1 class="profile-name">
-          {% if site.title == 'blank' %}
-            <span>{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
-          {% else %}
-            {{ site.title }}
-          {% endif %}
-        </h1>
-
-        {% if page.subtitle %}
-          <p class="profile-subtitle">{{ page.subtitle }}</p>
-        {% endif %}
-
-        <ul class="contact-list">
-
-          {% if page.profile.location %}
-          <li>
-            <i class="fa-solid fa-location-dot"></i>
-            <span>{{ page.profile.location }}</span>
-          </li>
+        <div class="profile-card">
+          {% if page.profile.image %}
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) 180px, 40vw{% endcapture %}
+            {%
+              include figure.liquid loading="eager" path=profile_image_path
+              class="profile-img-ellipse" sizes=sizes alt=page.profile.image
+              cache_bust=true
+            %}
           {% endif %}
 
-          {% if page.profile.affiliation %}
-          <li>
-            <i class="fa-solid fa-building-columns"></i>
-            <span>{{ page.profile.affiliation }}</span>
-          </li>
+          <h1 class="profile-name">
+            {% if site.title == 'blank' %}
+              <span>{{ site.first_name }}</span> {{ site.middle_name }}
+              {{ site.last_name }}
+            {% else %}
+              {{ site.title }}
+            {% endif %}
+          </h1>
+
+          {% if page.subtitle %}
+            <p class="profile-subtitle">{{ page.subtitle }}</p>
           {% endif %}
 
-          {% if site.data.socials.scholar_userid %}
-          <li>
-            <i class="ai ai-google-scholar"></i>
-            <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank">Google Scholar</a>
-          </li>
-          {% endif %}
+          <ul class="contact-list">
+            {% if page.profile.location %}
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>{{ page.profile.location }}</span>
+              </li>
+            {% endif %}
 
-          {% if site.data.socials.github_username %}
-          <li>
-            <i class="fa-brands fa-github"></i>
-            <a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank">GitHub</a>
-          </li>
-          {% endif %}
+            {% if page.profile.affiliation %}
+              <li>
+                <i class="fa-solid fa-building-columns"></i>
+                <span>{{ page.profile.affiliation }}</span>
+              </li>
+            {% endif %}
 
-          {% if site.data.socials.x_username %}
-          <li>
-            <i class="fa-brands fa-x-twitter"></i>
-            <a href="https://x.com/{{ site.data.socials.x_username }}" target="_blank">X</a>
-          </li>
-          {% endif %}
+            {% if site.data.socials.scholar_userid %}
+              <li>
+                <i class="ai ai-google-scholar"></i>
+                <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank">Google Scholar</a>
+              </li>
+            {% endif %}
 
-          {% if site.data.socials.linkedin_username %}
-          <li>
-            <i class="fa-brands fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank">LinkedIn</a>
-          </li>
-          {% endif %}
+            {% if site.data.socials.github_username %}
+              <li>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank">GitHub</a>
+              </li>
+            {% endif %}
 
-          {% if site.data.socials.cv_pdf %}
-          <li class="cv-item">
-            <i class="fa-solid fa-file-pdf"></i>
-            <a href="{{ site.data.socials.cv_pdf | relative_url }}" target="_blank">Curriculum Vitae</a>
-          </li>
-          {% endif %}
+            {% if site.data.socials.x_username %}
+              <li>
+                <i class="fa-brands fa-x-twitter"></i>
+                <a href="https://x.com/{{ site.data.socials.x_username }}" target="_blank">X</a>
+              </li>
+            {% endif %}
 
-        </ul>
+            {% if site.data.socials.linkedin_username %}
+              <li>
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank">LinkedIn</a>
+              </li>
+            {% endif %}
 
-      </div>
+            {% if site.data.socials.cv_pdf %}
+              <li class="cv-item">
+                <i class="fa-solid fa-file-pdf"></i>
+                <a href="{{ site.data.socials.cv_pdf | relative_url }}" target="_blank">Curriculum Vitae</a>
+              </li>
+            {% endif %}
+          </ul>
+        </div>
       {% endif %}
 
       <div class="about-content">
@@ -104,7 +100,6 @@ layout: default
           {% include selected_papers.liquid %}
         {% endif %}
       </div>
-
     </div>
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}

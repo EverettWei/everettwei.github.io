@@ -16,8 +16,4 @@ More specifically, I have recently been thinking about:
 - Improving LLM behavior through statistical methodology and mechanism design;
 - Modeling heterogeneity to design adaptive RL algorithms.
 
-
-
 Please see my [Publications](/publications/) page for a full list of my work.
-
-

@@ -28,7 +28,7 @@ I am an incoming Statistics PhD student at the University of California, Santa B
 
 I am broadly interested in **Reinforcement Learning** and **Large Language Models**.
 
-Feel free to reach out, whether it is about research, shared interests, or simply to say hello. You can find me at **z\_wei [at] ucsb [dot] edu** (institutional) or **zihengwei242 [at] gmail [dot] com** (permanent).
+Feel free to reach out, whether it is about research, shared interests, or simply to say hello. You can find me at **z_wei [at] ucsb [dot] edu** (institutional) or **zihengwei242 [at] gmail [dot] com** (permanent).
 
 ## Education
 
