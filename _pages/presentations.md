@@ -54,6 +54,12 @@ nav_order: 3
   color: var(--global-theme-color);
 }
 
+.pres-type.invited-talk {
+  background-color: transparent;
+  border: 1.5px solid #6c757d;
+  color: #6c757d;
+}
+
 .pres-title {
   font-size: 0.95rem;
   font-weight: 600;
@@ -75,6 +81,15 @@ nav_order: 3
     <span class="pres-type poster">Poster</span>
     <div class="pres-title">Off-Policy Evaluation for Missingness-Aware Policies in MDPs with Rewards Missing Not at Random</div>
     <div class="pres-venue">43rd International Conference on Machine Learning (ICML) · Seoul, Korea</div>
+  </div>
+</div>
+
+<div class="pres-entry">
+  <div class="pres-date">Jun. 2026</div>
+  <div class="pres-body">
+    <span class="pres-type invited-talk">Invited Talk</span>
+    <div class="pres-title">Off-Policy Evaluation for Missingness-Aware Policies in MDPs with Rewards Missing Not at Random</div>
+    <div class="pres-venue">At Institute of Math and AI, Wuhan University · Wuhan, China</div>
   </div>
 </div>
 
