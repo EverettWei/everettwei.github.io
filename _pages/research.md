@@ -14,6 +14,6 @@ More specifically, I have recently been thinking about:
 
 - Robust sequential decision-making methods that remain reliable under non-ideal data conditions, e.g., unmeasured confounding;
 - Theoretical and mechanistic understanding of transformer learning dynamics;
-- Statistical foundations of LLMs: optimal routing at the system and model level, and mathematical characterization of emergent misalignment.
+- Statistical foundations of LLMs, with focus on routing and emergent misalignment.
 
 Please see my [Publications](/publications/) page for a full list of my work.
