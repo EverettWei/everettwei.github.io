@@ -17,3 +17,7 @@ More specifically, I have recently been thinking about:
 - Statistical foundations of LLMs, with focus on routing and emergent misalignment.
 
 Please see my [Publications](/publications/) page for a full list of my work.
+
+## Academic Service
+
+**Reviewer:** Electronic Journal of Statistics
