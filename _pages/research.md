@@ -20,4 +20,4 @@ Please see my [Publications](/publications/) page for a full list of my work.
 
 ## Academic Service
 
-Reviewer — _Electronic Journal of Statistics_
+**Reviewer** — _Electronic Journal of Statistics_
