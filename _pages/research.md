@@ -13,7 +13,7 @@ My research broadly lies at the intersection of **Reinforcement Learning** and *
 More specifically, I have recently been thinking about:
 
 - Robust sequential decision-making methods that remain reliable under non-ideal data conditions, e.g., unmeasured confounding;
-- Improving LLM behavior through statistical methodology and mechanism design;
-- Modeling heterogeneity to design adaptive RL algorithms.
+- Theoretical and mechanistic understanding of transformer learning dynamics;
+- Statistical foundations of LLMs: optimal routing at the system and model level, and mathematical characterization of emergent misalignment.
 
 Please see my [Publications](/publications/) page for a full list of my work.
