@@ -78,6 +78,6 @@ Beyond research, here are some things I enjoy. Feel free to reach out if any of 
 
 ## Visitor Map
 
-<div style="display: flex; justify-content: center; margin-top: 1rem; transform: scale(0.6); transform-origin: top center;">
-  <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=l3iQ84TlVShIbdGHF-0tiDq5hwmrs0k92jkUegDSYuY"></script>
+<div style="display: flex; justify-content: center; margin-top: 1rem;">
+  <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=ffffff&w=504&t=tt&d=okHcN6IxbFwWqWdhGlcjCho9Dtt8hOaXTUv2zNzdnrQ&co=59b2f2&cmo=3acc3a&cmn=ff5353&ct=ffffff"></script>
 </div>
