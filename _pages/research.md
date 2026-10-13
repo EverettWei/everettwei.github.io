@@ -16,6 +16,8 @@ More specifically, I have recently been thinking about:
 - Theoretical and mechanistic understanding of transformer learning dynamics;
 - Statistical foundations of LLMs, with focus on routing and emergent misalignment.
 
+Along the way, I have been very fortunate to work closely with [Rui Miao](https://rui-miao.github.io/) and to benefit greatly from his guidance.
+
 Please see my [Publications](/publications/) page for a full list of my work.
 
 ## Academic Service
